@@ -11,4 +11,4 @@ function PlusLitmus(number1, number2) {
 
 }
 
-PlusLitmus(2,2)
+PlusLitmus()

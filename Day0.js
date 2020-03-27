@@ -1,3 +1,5 @@
+//Write a function that when called without any argument will return the current date and time
+
 function DateTime(){
     var date = new Date()
     var currentDay = date.getDay()                   
