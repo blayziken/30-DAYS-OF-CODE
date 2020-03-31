@@ -9,7 +9,7 @@ donFibonacciRecursive = (index) => {
     return donFibonacciRecursive(index-2) + donFibonacciRecursive(index-1);
 }
 
-donFibonacciRecursive(7)
+// donFibonacciRecursive(7)
 
 //Iterative method
 donFibonacci = (index) => {
@@ -17,7 +17,7 @@ donFibonacci = (index) => {
     for(let i=0 ; i<=index; i++) {
         array.push(array[i] + array[i+1]);
     }
-    console.log(array[index]);
+    return array[index];
 }
 
 donFibonacci(7)
