@@ -20,4 +20,4 @@ donFibonacci = (index) => {
     console.log(array[index]);
 }
 
-donFibonacci(12)
+donFibonacci(7)
