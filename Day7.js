@@ -9,7 +9,7 @@ donFibonacciRecursive = (index) => {
     return donFibonacciRecursive(index-2) + donFibonacciRecursive(index-1);
 }
 
-// donFibonacciRecursive(7)
+donFibonacciRecursive(7)
 
 //Iterative method
 donFibonacci = (index) => {
