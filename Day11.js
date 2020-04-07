@@ -17,6 +17,7 @@ ManyHappyReturns = (userString) => {
     
     //Parameters
     var days = 1000*60*60*24; 
+    //1000(for 1 second) * 60(for 60 minutes) * 60(for 60 seconds) * 24(for 24 hours)
     // var oneWeek = 1000*60*60*24*7;
     
     //To get the current and userstring object in milliseconds so I can get the difference
