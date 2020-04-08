@@ -1,3 +1,6 @@
+
+//Using ExpressJs or the native Http module, write a server that takes in an array of words from a POST request and returns only the words that are palindromes as a response from a GET request.
+
 const express = require ('express')
 
 const app = express()
@@ -16,6 +19,7 @@ const noReverse = (str) => {
 const array = []
 
 app.post('/createdata', (req, res, next) => {
+    if(Array.isArray(req.body.words) === false) return "Not an array of words"
     req.body.words.map((data) => {
         if(noReverse() === true){
             array.push(data)
